@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &.dark{
+        background: #2f3136;
+        color: #FFF;
+    }
+
+    // Home e NewRoom
+    #page-auth{
+        aside{
+            &.dark{
+                background: #1f1b24;
+            }
+        }
+    }
+
+     // AdminRoom e Room
+    #page-room{
+        header{
+            &.dark{
+            border-bottom: 1px solid #222325;
+            }
+        }
+        main {
+            .room-title{
+                h1{
+                    &.dark{
+                    color: #FFFFFF;
+                    }
+                }
+            }
+            form{
+                textarea{
+                    &.dark{
+                    background: #47494e;
+                    }
+                }   
+                
+                .form-footer{
+
+                    .user-info{
+                        > span{
+                            color:#FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Questions
+    .question {
+        &.dark{
+            background: #2f3136;;
+        }
+    }
+}
+
+body{
+    background: #f8f8f8;
+    color: #29292e;    
+}
+
+
+body, input, button, textarea{
+    font: 400 16px 'Roboto', sans-serif;
+}
